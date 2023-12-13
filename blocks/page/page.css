@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+  background: rgba(20, 1, 50, 1);
+}
+
+.page {
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 1512px;
+  font-family: 'Montserrat', 'Arial', 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
+  text-decoration-skip: objects;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  overflow: hidden;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
